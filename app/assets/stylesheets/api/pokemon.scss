@@ -1,3 +1,66 @@
 // Place all the styles related to the api/pokemon controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pokedex {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  margin-right: 50px;
+  flex: column;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+
+.sidebar li {
+  padding-left: 5px;
+  border-top: 1px solid black;
+  list-style-type: none;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 100%;
+  width: 100%;
+}
+
+.sidebar li img {
+  position: relative;
+  top: 7px;
+  padding: 2px;
+}
+
+.sidebar li a span {
+  display: inline-block;
+  height: 100%;
+}
+
+.sidebar a {
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+
+.sidebar li:hover {
+  background-color: grey;
+}
+
+.sidebar img {
+  width: 20px;
+  height: 20px;
+}
+
+#pokemon_detail {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pkmn_img {
+  display: block;
+  width: 100%;
+}
